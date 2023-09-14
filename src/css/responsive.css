@@ -1,0 +1,40 @@
+/* Estilo para telas com largura máxima de 425px */
+
+@media (max-width: 425px) {
+
+/* Reduz a largura máxima do logotipo e ajusta o posicionamento horizontal */
+.header .logo img {
+    max-width: 130px;
+    left: 7vh;
+  }
+  
+  /* Reduz a altura máxima da imagem na descrição do conteúdo principal e ajusta o posicionamento horizontal */
+  .main-content .image-description img {
+    max-height: 250px;
+    left: 6vh;
+  }
+  
+  /* Ajusta o posicionamento relativo e a formatação do parágrafo na descrição do conteúdo principal */
+  .main-content .image-description p {
+    position: relative;
+    left: 4vh;
+    top: 14vh;
+    text-align: center;
+    font-size: 11.5px;
+  }
+  
+  /* Centraliza o conteúdo no rodapé */
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Ajusta o posicionamento relativo e o tamanho da fonte dos ícones de mídia social no rodapé */
+  .footer .social-media a {
+    position: relative;
+    left: 4vh;
+    top: 13.5vh;
+    font-size: 15px;
+  }
+
+}

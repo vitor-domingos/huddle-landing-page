@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  max-width: 1440px;
+  background: url("../images/bg-desktop.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 425px) {
+  body {
+    max-width: 375px;
+    background: url("../images/bg-mobile.jpg") center center no-repeat;
+  }
+}

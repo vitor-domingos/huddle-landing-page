@@ -1,0 +1,86 @@
+/* Estilização do logotipo no cabeçalho */
+.header .logo img {
+  max-width: 180px;
+  background-color: hsl(257, 40%, 49%);
+  position: relative;
+  left: 8vh; /* Deslocamento horizontal do logotipo */
+  top: 6vh; /* Deslocamento vertical do logotipo */
+}
+
+/* Estilização do conteúdo principal */
+.main-content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Estilização das imagens na descrição do conteúdo principal */
+.main-content .image-description img {
+  max-height: 400px;
+  position: relative;
+  right: 115vh; /* Deslocamento horizontal da imagem */
+  top: 15vh; /* Deslocamento vertical da imagem */
+}
+
+/* Estilização dos parágrafos na descrição do conteúdo principal */
+.main-content .image-description p {
+  font-size: 15px;
+  margin: 20px;
+  position: relative;
+  bottom: 35vh; /* Deslocamento vertical do parágrafo */
+  right: 25vh; /* Deslocamento horizontal do parágrafo */
+}
+
+/* Estilização dos títulos e subtítulos na descrição do conteúdo principal */
+.main-content .image-description .title,
+.main-content .image-description .subtitle {
+  font-family: "Poppins", sans-serif;
+  color: #474747;
+}
+
+/* Estilização dos títulos na descrição do conteúdo principal */
+.main-content .image-description .title {
+  font-weight: 600;
+}
+
+/* Estilização dos subtítulos na descrição do conteúdo principal */
+.main-content .image-description .subtitle {
+  font-weight: 400;
+}
+
+/* Estilização dos botões */
+.button a {
+  padding: 5px;
+  border-radius: 20px;
+  color: hsl(300, 69%, 71%);
+  background-color: hsl(257, 40%, 49%);
+  transition: 0.2s ease-in-out;
+}
+
+/* Efeito de hover nos botões */
+.button a:hover {
+  transform: scale(0.4); /* Reduz o tamanho ao passar o mouse */
+  color: #fff;
+  background-color: hsl(300, 69%, 71%);
+}
+
+/* Estilização do rodapé */
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Estilização dos ícones de mídia social no rodapé */
+.footer .social-media a{
+  font-size: 20px;
+  position: relative;
+  bottom: 8vh; /* Deslocamento vertical dos ícones */
+  right: 4vh; /* Deslocamento horizontal dos ícones */
+  color: hsl(257, 40%, 49%);
+  transition: 0.2s ease-in-out;
+   }
+
+/* Efeito de hover nos ícones de mídia social */
+.footer .social-media a:hover {
+  transform: scale(0.4); /* Reduz o tamanho ao passar o mouse */
+  color: hsl(300, 69%, 71%);
+}
