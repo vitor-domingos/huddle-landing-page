@@ -70,14 +70,23 @@
 }
 
 /* Estilização dos ícones de mídia social no rodapé */
-.footer .social-media a{
+.footer .social-media a {
   font-size: 20px;
   position: relative;
   bottom: 8vh; /* Deslocamento vertical dos ícones */
   right: 4vh; /* Deslocamento horizontal dos ícones */
   color: hsl(257, 40%, 49%);
   transition: 0.2s ease-in-out;
-   }
+  margin-right: 10px;
+  border: 2px solid hsl(300, 69%, 71%);
+  border-radius: 20px;
+}
+
+.footer .social-media a .fa-facebook,
+.footer .social-media a .fa-twitter {
+  position: relative;
+  left: 0.4vh;
+}
 
 /* Efeito de hover nos ícones de mídia social */
 .footer .social-media a:hover {
