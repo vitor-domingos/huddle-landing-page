@@ -32,7 +32,7 @@
   /* Ajusta o posicionamento relativo e o tamanho da fonte dos ícones de mídia social no rodapé */
   .footer .social-media a {
     position: relative;
-    left: 4vh;
+    left: 4.5vh;
     top: 13.5vh;
     font-size: 15px;
   }
