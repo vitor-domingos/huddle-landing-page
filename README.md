@@ -55,8 +55,6 @@
 
 [<img src="./.gif huddle landing page mobile.gif" alt="gif of the mobile version of the huddle landing page">]
 
-## Project description
-
 ## Project Description
 
 **This is a landing page project provided by the Mentor front-end platform. The project makes use of HTML5 and CSS3 front-end technologies. I didn't encounter any major difficulties during the realization of this project, as it has a simple design. Development was completed in 5 days, based on the layout provided by Front-end Mentor.**
